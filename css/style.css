@@ -1,5 +1,7 @@
-.infobox{
-  color: grey;
-  width: 600px;
-  padding: 20px;
+@media screen and (min-width: 769px) {
+  .infobox{
+    color: grey;
+    width: 600px;
+    padding: 20px;
+  }
 }
