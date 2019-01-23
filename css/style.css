@@ -1,7 +1,32 @@
-@media screen and (min-width: 769px) {
-  .infobox{
-    color: grey;
-    width: 600px;
-    padding: 20px;
-  }
+@font-face {
+  font-family: Lato-Hairline;
+  src: url('../fonts/Lato-Hairline.ttf');
+}
+body{
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+}
+.bg-overlay{
+  background-color: rgba(0 , 0, 0, 0.5);
+  height: 100vh;
+}
+.content{
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  padding: 10px 0;
+  padding-top: 20%;
+  font-family: Lato-Hairline;
+  font-size: 30px;
+}
+.links a i{
+  border: 1px solid white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 49px;
+  color: white;
 }
